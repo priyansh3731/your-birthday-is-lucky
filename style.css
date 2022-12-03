@@ -1,0 +1,45 @@
+:root{
+    --primary-color:#1f2937;
+    --secondary-color:#6EE787;
+}
+
+body{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+
+h1{
+    text-align: center;
+    margin: 2rem;
+}
+
+.container{
+    width: 50%;
+    margin: auto;
+}
+
+input, label{
+    display: block;
+}
+
+input{
+    margin-bottom: 0.5rem;
+    width: 100%;
+}
+
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-width: medium;
+    padding:0.5rem;
+    border-radius: 5px;
+}
+
+label{
+    text-align: center;
+}
