@@ -22,8 +22,9 @@ function checkBirthDateIsLucky(){
     const sum = calculateSum(dob);
     if(sum&&dob){
         compareValues(sum,luckyNumber.value);
+    }else{
+        message.innerText="please enter the both fields";
     }
-    message.innerText="please enter the both fields";
 }
 
 function compareValues(sum,luckyNumber){
