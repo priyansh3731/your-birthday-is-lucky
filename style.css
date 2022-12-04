@@ -15,7 +15,7 @@ h1{
 }
 
 .container{
-    width: 50%;
+    width: 20%;
     margin: auto;
 }
 
@@ -30,7 +30,7 @@ input{
 
 #check-number{
     display: block;
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin: auto;
     background: transparent;
     color: var(--secondary-color);
